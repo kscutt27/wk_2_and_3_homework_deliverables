@@ -8,11 +8,11 @@
 
 
 
-1\. Sign into the AWS Console
+1. Sign into the AWS Console
 
-2\. Verify the region being used
+2. Verify the region being used
 
-3\. Navigate to the EC2 Dashboard
+3. Navigate to the EC2 Dashboard
 
 
 
@@ -36,19 +36,19 @@ Create Security Group:
 
 
 
-1\. Click "Create Security Group"
+1. Click "Create Security Group"
 
-2\. Enter SG Name and Description
+2. Enter SG Name and Description
 
-3\. Verify VPC is set to default
+3. Verify VPC is set to default
 
-4\. Add inbound HTTP rule with "Anywhere IPv4" source (0.0.0.0/0)
+4. Add inbound HTTP rule with "Anywhere IPv4" source (0.0.0.0/0)
 
-5\. Don't modify outbound rules - verify "All traffic" is allowed
+5. Don't modify outbound rules - verify "All traffic" is allowed
 
-6\. (Optional: Add tags)
+6. (Optional: Add tags)
 
-7\. Click "Create Security Group"
+7. Click "Create Security Group"
 
 
 
@@ -58,7 +58,7 @@ Verification:
 
 
 
-1\. Verify SG is created and correctly configured
+1. Verify SG is created and correctly configured
 
 
 
@@ -68,9 +68,9 @@ Verification:
 
 
 
-1\. Choose an available script
+1. Choose an available script
 
-2\. Copy the script from GitHub
+2. Copy the script from GitHub
 
 
 
@@ -80,11 +80,11 @@ Verification:
 
 
 
-1\. Navigate to Instances:
+1. Navigate to Instances:
 
 &nbsp;    Left pane → Instances → Instances
 
-2\. Click "Launch Instances"
+2. Click "Launch Instances"
 
 
 
@@ -94,13 +94,13 @@ Configure Instance:
 
 
 
-1\. Name and Tags: Enter instance name, add relevant tags
+1. Name and Tags: Enter instance name, add relevant tags
 
-2\. AMI Selection: Review AMI menu, ensure defaults are selected, collapse
+2. AMI Selection: Review AMI menu, ensure defaults are selected, collapse
 
-3\. Instance Type: Review instance type menu, ensure proper sizing, collapse
+3. Instance Type: Review instance type menu, ensure proper sizing, collapse
 
-4\. Key Pair: Select "Proceed without key pair", collapse
+4. Key Pair: Select "Proceed without key pair", collapse
 
 
 
@@ -110,17 +110,17 @@ Configure Instance:
 
 
 
-1\. Don't click "Edit"
+1. Don't click "Edit"
 
-2\. Verify VPC selection
+2. Verify VPC selection
 
-3\. Note: Subnet selection is not critical for this lab
+3. Note: Subnet selection is not critical for this lab
 
-4\. Ensure "Auto-assign public IP" is enabled
+4. Ensure "Auto-assign public IP" is enabled
 
-5\. Select your created Security Group (NOT "launch-wizard"!)
+5. Select your created Security Group (NOT "launch-wizard"!)
 
-6\. Collapse section
+6. Collapse section
 
 
 
@@ -130,11 +130,11 @@ Configure Instance:
 
 
 
-1\. Review Configure Storage menu
+1. Review Configure Storage menu
 
-2\. Brief discussion: What is EBS?
+2. Brief discussion: What is EBS?
 
-3\. Collapse section
+3. Collapse section
 
 
 
@@ -144,11 +144,11 @@ Configure Instance:
 
 
 
-1\. Open Advanced Settings
+1. Open Advanced Settings
 
-2\. Focus on User Data section only - ignore everything else
+2. Focus on User Data section only - ignore everything else
 
-3\. Paste your chosen startup script
+3. Paste your chosen startup script
 
 
 
@@ -160,9 +160,9 @@ Configure Instance:
 
 
 
-1\. Review configuration
+1. Review configuration
 
-2\. Click "Launch Instance"
+2. Click "Launch Instance"
 
 
 
@@ -172,13 +172,13 @@ Configure Instance:
 
 
 
-1\. Wait for the instance to pass status checks
+1. Wait for the instance to pass status checks
 
-2\. Copy the instance's public DNS address
+2. Copy the instance's public DNS address
 
-3\. pen your web browser
+3. pen your web browser
 
-4\. Navigate to: http://<public-DNS-address>
+4. Navigate to: http://<public-DNS-address>
 
 &nbsp;   
 
@@ -196,11 +196,11 @@ Terminate the EC2 Instance:
 
 
 
-1\. Navigate to EC2 → Instances
+1. Navigate to EC2 → Instances
 
-2\. Select your instance
+2. Select your instance
 
-3\. Instance State → Terminate Instance
+3. Instance State → Terminate Instance
 
 
 
@@ -210,11 +210,11 @@ Delete Security Group (Optional):
 
 
 
-1\. Navigate to EC2 → Security Groups
+1. Navigate to EC2 → Security Groups
 
-2\. Select your created security group
+2. Select your created security group
 
-3\. Actions → Delete Security Group
+3. Actions → Delete Security Group
 
 
 
